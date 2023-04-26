@@ -11,12 +11,15 @@
     <button type="button" id="btn">Hãy nhập số </button>
     <script>
 
-         let a = document.getElementById("numb");
+         
+       
           document.getElementById("btn").onclick = function () {
-            if (a%2==0) {
+            let a = document.getElementById("numb");
+            let b = parseInt(a.value);
+            if (b%2==0) {
             alert("a la so chan")
             
-        } else {
+          } else {
          alert(" a la so le")
         }
 
