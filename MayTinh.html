@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Caculator</h1>
+    <input type="number"id="aa">
+    <input type="number"id="bb"> <br>
+    <br>
+    <button type="button"id="cc" onclick="getValue()">Addition +</button>
+    <button type="button"id ="dd" onclick="Sub()">Subtraction -</button>
+    <button type="" id="ee" onclick="Mul()">Multiplication x</button>
+    <button type="button" onclick="Div()" id="ff">Division /</button>
+    <script>
+        
+
+        function getValue() {
+            let a = document.getElementById("aa");
+            let aa = parseInt(a.value);
+        let b = document.getElementById("bb");
+        let bb = parseInt(b.value);
+        
+        let C = aa + bb;
+            alert (C);
+
+        };
+        function Sub() {
+            let a = document.getElementById("aa");
+            let aa = parseInt(a.value);
+        let b = document.getElementById("bb");
+        let bb = parseInt(b.value);
+            let D = aa - bb;
+            alert (D)
+        };
+        function Mul(){
+            let a = document.getElementById("aa");
+            let aa = parseInt(a.value);
+        let b = document.getElementById("bb");
+        let bb = parseInt(b.value);
+        let E = aa * bb;
+        alert(E);
+
+        };
+        function Div(){
+            let a = document.getElementById("aa");
+            let aa = parseInt(a.value);
+        let b = document.getElementById("bb");
+        let bb = parseInt(b.value);
+        let F = aa/ bb;
+        alert(F)
+
+        };
+        
+
+
+
+
+          
+    </script>
+</body>
+</html>
